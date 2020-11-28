@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{aas1964congruences}
+Hans-Fredrik Aas.
+\newblock Congruences for the coefficients of the modular invariant $j(\tau)$.
+\newblock {\em Mathematica Scandinavica}, 14(2):185--192, 1964.
+
+\bibitem{Baier2003}
+Harald Baier and Gunter K\"{o}hler.
+\newblock How to compute the coefficients of the elliptic modular function
+  $j(z)$.
+\newblock {\em Experimental Mathematics}, 12(1):115--121, January 2003.
+
+\bibitem{Brisebarre2005}
+Nicolas Brisebarre and Georges Philibert.
+\newblock Effective lower and upper bounds for the {F}ourier coefficients of
+  powers of the modular invariant $j$.
+\newblock {\em Journal of the Ramanujan Mathematical Society}, 20(4):255--282,
+  2005.
+
+\bibitem{conway1979monstrous}
+John~H. Conway and Simon~P. Norton.
+\newblock Monstrous moonshine.
+\newblock {\em Bulletin of the London Mathematical Society}, 11(3):308--339,
+  1979.
+
+\bibitem{MO2}
+David Feldman.
+\newblock Does the {F}ourier expansion of the $j$-function have any prime
+  coefficients?
+\newblock \url{https://mathoverflow.net/q/377061}, 2020.
+
+\bibitem{OEIS000521}
+OEIS~Foundation Inc.
+\newblock {The On-Line Encyclopedia of Integer Sequences}.
+\newblock \url{https://oeis.org/A000521}, 2020.
+
+\bibitem{Johansson2012hrr}
+Fredrik Johansson.
+\newblock Efficient implementation of the {H}ardy-{R}amanujan-{R}ademacher
+  formula.
+\newblock {\em LMS Journal of Computation and Mathematics}, 15:341--359, 2012.
+
+\bibitem{Johansson2014thesis}
+Fredrik Johansson.
+\newblock {\em Fast and rigorous computation of special functions to high
+  precision}.
+\newblock PhD thesis, RISC, Johannes Kepler University, Linz, 2014.
+\newblock \url{http://fredrikj.net/thesis/}.
+
+\bibitem{Joh2017}
+Fredrik Johansson.
+\newblock Arb: Efficient arbitrary-precision midpoint-radius interval
+  arithmetic.
+\newblock {\em {IEEE} Transactions on Computers}, 66(8):1281--1292, August
+  2017.
+
+\bibitem{McLaughlin2012}
+James~Mc Laughlin and Scott Parsell.
+\newblock A {Hardy-Ramanujan-Rademacher-type} formula for $(r, s)$-regular
+  partitions.
+\newblock {\em The Ramanujan Journal}, 28(2):253--271, April 2012.
+
+\bibitem{Newman1958}
+Morris Newman.
+\newblock Congruences for the coefficients of modular forms and for the
+  coefficients of $j(\tau)$.
+\newblock {\em Proceedings of the American Mathematical Society}, 9(4):609,
+  August 1958.
+
+\bibitem{petersson1932}
+Hans Petersson.
+\newblock {\"U}ber die {E}ntwicklungskoeffizienten der automorphen {F}ormen.
+\newblock {\em Acta Mathematica}, 58(1):169--215, 1932.
+
+\bibitem{Rademacher1938}
+Hans Rademacher.
+\newblock {The {F}ourier coefficients of the modular invariant $J(\tau)$}.
+\newblock {\em American Journal of Mathematics}, 60(2):501, April 1938.
+
+\bibitem{sarnak2009linnik}
+Peter Sarnak and Jacob Tsimerman.
+\newblock {On Linnik and Selberg's conjecture about sums of Kloosterman sums}.
+\newblock In {\em Algebra, Arithmetic, and Geometry}, pages 619--635. Springer,
+  2009.
+
+\bibitem{sills2010towards}
+Andrew Sills.
+\newblock Towards an automation of the circle method.
+\newblock {\em Gems in experimental mathematics}, pages 321--338, 2010.
+
+\bibitem{Sag2020}
+{The Sage Developers}.
+\newblock {\em {S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem
+  ({V}ersion 9.0)}, 2020.
+\newblock \url{https://www.sagemath.org}.
+
+\bibitem{whiteman1945note}
+Albert~Leon Whiteman.
+\newblock A note on {K}loosterman sums.
+\newblock {\em Bulletin of the American Mathematical Society}, 51(6):373--377,
+  1945.
+
+\end{thebibliography}
