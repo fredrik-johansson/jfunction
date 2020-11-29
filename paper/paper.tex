@@ -127,8 +127,8 @@ and is highly efficient in practice.
 This work was prompted by a MathOverflow post by David Feldman
 which asked whether the sequence $c_n$ contains prime numbers~\cite{MO2}.
 We can answer this in the affirmative: an
-exhaustive search of $n \le 1.5 \cdot 10^7$
-finds six prime values of $c_n$ in this range (Table~\ref{tab:primes}), the first
+exhaustive search of $n \le 2 \cdot 10^7$
+finds seven prime values of $c_n$ in this range (Table~\ref{tab:primes}), the first
 occurring at $n = 457871$.
 
 \section{The power series method}
@@ -475,12 +475,15 @@ using the hybrid algorithm with $c_n \bmod M$ as precomputed input.
 Prime values of $c_n$ were then identified using a standard probabilistic
 primality test (trial factoring to rule out simple composites
 followed by the BPSW test).
-Using this method, it took a several hours to search all $c_n$ up to $n = 1.5 \cdot 10^7$.
-In this range, the $\gcd(c_n, M) = 1$ filter left 21827 candidate $c_n$ to check.
+
+To search up to $n = 2 \cdot 10^7$, the initial power series
+calculation took three minutes. Filtering by $\gcd(c_n, M) = 1$
+left 28971 candidate $c_n$ to compute exactly (around 7 hours) and
+check for primality (around 45 hours).
 
 \begin{table}
 \begin{center}
-\caption{All prime values of $c_n$ with $n \le 1.5 \cdot 10^7$.}
+\caption{All prime values of $c_n$ with $n \le 2 \cdot 10^7$.}
 \label{tab:primes}
 \renewcommand{\baselinestretch}{1.25}
 \begin{small}
@@ -492,25 +495,29 @@ $n$  & Digits in $c_n$ & $c_n$ \\ \hline
 1101431 & 5723 & $8315472348 \ldots 7940410921$ \\
 9407831 & 16734 & $9603424490 \ldots 8550890201$ \\
 11769911 & 18718 & $5971402918 \ldots 6331345197$ \\
+18437999 & 23429 & $4474491259 \ldots 2242965811$ \\
 \end{tabular}
 \end{small}
 \end{center}
 \end{table}
 
 Table~\ref{tab:primes} lists the first prime values of $c_n$.
-At the time of writing, these numbers are only confirmed as probable primes,
+At the time of writing, Jeremy Rouse reports having
+certified the primality of $c_{457871}$ using ECPP.
+The remaining numbers are only confirmed as probable primes,
 but the BPSW test has no known counterexamples,
-and we anticipate that the numbers can be certified
-prime through several months of computation with ECPP.
+and we anticipate that ECPP certificates can
+be generated with some months of computation.
 
-Lacking evidence to the contrary, we speculate:
+Although primes seem to appear sparsely in the sequence $c_n$ (much more sparsely than for the
+partition function $p(n)$, for example), we speculate:
 
 \begin{conjecture}
 There are infinitely many $n$ such that $c_n$ is prime.
 \end{conjecture}
 
 With more memory and a large number of cores, the search could easily be extended
-much further (at least to $n = 10^9$). The method presented here could also be used
+further (at least to $n = 10^9$). The method presented here could also be used
 to investigate other divisibility properties of the numbers $c_n$.
 
 \section{Generalization}
@@ -519,7 +526,7 @@ The methods discussed here are not specific to the $j$-function.
 The Petersson-Rademacher series can be generalized to
 any modular function of weight 0 (see \cite[Theorem~5.1]{Brisebarre2005}),
 and similar series can be constructed
-for the coefficients of more general modular forms,
+for the coefficients of a wide range of modular forms,
 or viewed combinatorially,
 for various partition-type sequences~\cite{sills2010towards}.
 An interesting problem is to automate the efficient

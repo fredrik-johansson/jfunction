@@ -30,6 +30,12 @@ David Feldman.
   coefficients?
 \newblock \url{https://mathoverflow.net/q/377061}, 2020.
 
+\bibitem{Har2010}
+William~B. Hart.
+\newblock Fast library for number theory: An introduction.
+\newblock In {\em Mathematical Software {\textendash} {ICMS} 2010}, pages
+  88--91. Springer Berlin Heidelberg, 2010.
+
 \bibitem{OEIS000521}
 OEIS~Foundation Inc.
 \newblock {The On-Line Encyclopedia of Integer Sequences}.
